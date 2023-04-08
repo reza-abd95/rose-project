@@ -326,7 +326,13 @@ html {
     
     }
     .next-work{
-        margin: 8px 0;
+        margin: 6px 0;
+    }
+    .first{
+        margin:24px 0 12px;
+    }
+    .last{
+        margin: 16px 0;
     }
     .social-side{
         margin-top: 12px;

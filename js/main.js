@@ -8,3 +8,10 @@ function hideFunc(){
     document.getElementById('cont-menu-mob').style.cssText = 'display:none';
 }
 
+
+function checkMediaQuery() {
+  if (window.innerWidth > 600) {
+    hideFunc()
+  }
+}
+window.addEventListener('resize', checkMediaQuery);
